@@ -26,15 +26,6 @@ This project is a **Spring Boot RESTful microservice** developed for **SE4010 �
 
 ---
 
-## 📂 Project Structure
-
-src/main/java/com/example/productservice/
-├── controller/    # REST API Endpoints
-├── model/         # JPA Entity classes (Product)
-├── repository/    # Data Access Layer (Spring Data JPA)
-└── ProductserviceApplication.java # Application Entry Point
-
-
 ## ⚙️ Setup & Installation
 ## Prerequisites
 * **JDK 21 or higher**
@@ -44,31 +35,31 @@ src/main/java/com/example/productservice/
 * **IDE (IntelliJ, VS Code, or Eclipse)**
 
 ## Run the Application
-* **1.Clone the repository:**
-* Bash
-* git clone <your-repo-url>
-*cd productservice
+## 1.Clone the repository:
 
-* **2.Build and Run using Maven:**
-* Bash
-* mvn spring-boot:run
+git clone <your-repo-url>
+cd productservice
+
+## 2.Build and Run using Maven:
+
+ mvn spring-boot:run
   
 ## 🌐 API Access & Documentation
 
 Once the application is running, you can access the following interfaces:
 
-Swagger UI : http://localhost:8081/swagger-ui/index.html
-H2 Console : http://localhost:8081/h2-console
+* **Swagger UI : http://localhost:8081/swagger-ui/index.html**
+* **H2 Console : http://localhost:8081/h2-console**
 
 ## 🗄️ Database Credentials (H2)
 JDBC URL: jdbc:h2:mem:testdb
 
 Username: sa
 
-Password: (leave blank)
+Password: -
 
 ## 🧪 Example Usage
-Create a Product
+## Create a Product
 POST /api/products
 
 JSON
@@ -76,5 +67,6 @@ JSON
   "name": "Gaming Laptop",
   "price": 1200.50
 }
-Get All Products
+
+## Get All Products
 GET /api/products
