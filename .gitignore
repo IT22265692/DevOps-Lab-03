@@ -1,0 +1,33 @@
+# Maven target folder
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code (if opened)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+*.class
+
+# Node modules (just in case)
+node_modules/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.swp
